@@ -31,13 +31,10 @@ Stock App is an Android application built with **Java** and **Firebase**, integr
 Link for video: https://drive.google.com/file/d/1AKgzyVBT9AYY3j5tbVMI11zno7Vja9Zd/view?usp=drive_link
 
 ### 📱 Screenshots
-| Home Screen | Stock Details | Chart View |
-|------------|--------------|------------|
-| ![Home]([path_to_home_screenshot](https://drive.google.com/file/d/1AKgzyVBT9AYY3j5tbVMI11zno7Vja9Zd/view?usp=drive_link)) | ![Details]([path_to_details_screenshot](https://drive.google.com/file/d/1AKgzyVBT9AYY3j5tbVMI11zno7Vja9Zd/view?usp=drive_link)) | [![Chart](path_to_chart_screenshot)](https://drive.google.com/file/d/1AKgzyVBT9AYY3j5tbVMI11zno7Vja9Zd/view?usp=drive_link) |
+![image](https://github.com/user-attachments/assets/316fec6b-ab7b-4f7a-bd19-7b22b425aed1)
+![image](https://github.com/user-attachments/assets/df74267f-fc2c-40b2-ad9d-59edda98b911)
+![image](https://github.com/user-attachments/assets/a94c5e5a-e177-4c95-b7dc-a37c949e5e3d)
 
-### 📹 Video Demo
-Watch a short demo of the app in action:
-[![Stock App Demo](path_to_video_thumbnail)]([path_to_video_link](https://drive.google.com/file/d/1AKgzyVBT9AYY3j5tbVMI11zno7Vja9Zd/view?usp=drive_link))
 
 ## 🛠️ Technologies Used
 
