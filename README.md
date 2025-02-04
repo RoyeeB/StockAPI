@@ -37,7 +37,7 @@ Link for video: https://drive.google.com/file/d/1AKgzyVBT9AYY3j5tbVMI11zno7Vja9Z
 
 ### 📹 Video Demo
 Watch a short demo of the app in action:
-[![Stock App Demo](path_to_video_thumbnail)](path_to_video_link)
+[![Stock App Demo](path_to_video_thumbnail)]([path_to_video_link](https://drive.google.com/file/d/1AKgzyVBT9AYY3j5tbVMI11zno7Vja9Zd/view?usp=drive_link))
 
 ## 🛠️ Technologies Used
 
