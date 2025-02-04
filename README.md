@@ -39,7 +39,7 @@ Stock App is an Android application built with **Java** and **Firebase**, integr
 - **🏗️ MVVM Architecture** - Code structure
 
 ## 🎥 Demo
-Link for video: https://drive.google.com/file/d/1AKgzyVBT9AYY3j5tbVMI11zno7Vja9Zd/view?usp=drive_link
+Link for video: https://drive.google.com/file/d/1TeYulJsKSzmJymmCXBwwylE7lNA2sET4/view?usp=drive_link
 
 ### 📱 Screenshots
 ![image](https://github.com/user-attachments/assets/316fec6b-ab7b-4f7a-bd19-7b22b425aed1)
