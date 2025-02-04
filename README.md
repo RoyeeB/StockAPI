@@ -27,6 +27,17 @@ Stock App is an Android application built with **Java** and **Firebase**, integr
 - **📋 Stock Summary:** Shows average price, highest and lowest values for the selected period.
 - **⚡ Live Updates:** Real-time stock price updates.
 
+
+ ## 🛠️ Technologies Used
+
+- **☕ Java** - Programming language
+- **🖥️ Android Studio** - IDE
+- **🔗 Retrofit** - API calls
+- **🔥 Firebase Firestore** - Database
+- **📉 MPAndroidChart** - Chart visualization
+- **📜 RecyclerView** - Displaying stock lists
+- **🏗️ MVVM Architecture** - Code structure
+
 ## 🎥 Demo
 Link for video: https://drive.google.com/file/d/1AKgzyVBT9AYY3j5tbVMI11zno7Vja9Zd/view?usp=drive_link
 
@@ -36,15 +47,7 @@ Link for video: https://drive.google.com/file/d/1AKgzyVBT9AYY3j5tbVMI11zno7Vja9Z
 ![image](https://github.com/user-attachments/assets/a94c5e5a-e177-4c95-b7dc-a37c949e5e3d)
 
 
-## 🛠️ Technologies Used
 
-- **☕ Java** - Programming language
-- **🖥️ Android Studio** - IDE
-- **🔗 Retrofit** - API calls
-- **🔥 Firebase Firestore** - Database
-- **📉 MPAndroidChart** - Chart visualization
-- **📜 RecyclerView** - Displaying stock lists
-- **🏗️ MVVM Architecture** - Code structure
 
 
 
