@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.StockAPI" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+    </style>
+
+    <style name="Theme.StockAPI" parent="Base.Theme.StockAPI" />
+</resources>

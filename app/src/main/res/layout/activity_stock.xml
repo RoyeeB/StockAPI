@@ -1,0 +1,161 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:layout_marginStart="10dp"
+    android:background="@color/backgroundColor"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/back_BTN_stock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Back"
+            android:backgroundTint="@color/primaryColor"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/logo_ic"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            />
+
+        <TextView
+            android:id="@+id/companyName_TXT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/primaryTextColor"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/stockSymbol_TXT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:textColor="@color/secondaryTextColor" />
+
+        <TextView
+            android:id="@+id/lastClosePrice_TXT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:textColor="@color/secondaryTextColor" />
+
+        <TextView
+            android:id="@+id/precentChange_TXT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:textColor="@color/secondaryTextColor" />
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/stock_chart"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:background="#FFFFFF" />
+
+        <LinearLayout
+            android:id="@+id/buttonLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/dailyButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Today"
+                android:backgroundTint="@color/primaryColor"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/weeklyButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:text="7 days"
+                android:backgroundTint="@color/primaryColor"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/monthlyButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:text="30 days"
+                android:backgroundTint="@color/primaryColor"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/biMonthlyButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:text="60 days"
+                android:backgroundTint="@color/primaryColor"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/summeryClose_TXT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/primaryTextColor" />
+
+        <TextView
+            android:id="@+id/summeryPrecent_TXT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:textColor="@color/secondaryTextColor" />
+
+        <TextView
+            android:id="@+id/summeryMaxPrice_TXT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:textColor="@color/secondaryTextColor" />
+
+        <TextView
+            android:id="@+id/summeryMinPrice_TXT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="50dp"
+            android:textColor="@color/secondaryTextColor" />
+
+    </LinearLayout>
+</ScrollView>
+
